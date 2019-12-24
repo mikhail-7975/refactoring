@@ -2,7 +2,6 @@
 
 int Operation_::Execute(int leftNumber, const std::string & opSymbol, int rightNumber) const
 {
-
 	if (m_operations.count(opSymbol) == 0) return 0;
 
 	return m_operations.at(opSymbol)->Execute(leftNumber, rightNumber);
