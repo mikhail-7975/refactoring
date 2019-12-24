@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Task">
+      <UniqueIdentifier>{29c3e6e1-9bd2-4274-b164-759b9baff0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operations">
+      <UniqueIdentifier>{6daef7a3-5fd9-475b-b80e-7b42d9b5b658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operation Initializer">
+      <UniqueIdentifier>{c85e0bd4-6809-4689-8d57-1a56335dd3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{b7693b1f-c50f-47bd-859e-7d9c378e0870}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Operations.cpp">
+      <Filter>Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="operationInitializer.cpp">
+      <Filter>operation Initializer</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Task.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Operations.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationInterface.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="operationInitializer.h">
+      <Filter>operation Initializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
