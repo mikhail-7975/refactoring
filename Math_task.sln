@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math_task", "Math_task\Math
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math_task_cpp", "Math_task_cpp\Math_task_cpp.vcxproj", "{E978C67A-29B2-46CE-915E-6049F7A4327A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "abstract_fabric", "abstract_fabric\abstract_fabric.vcxproj", "{EB329984-269D-4E4F-97C0-4A968ECF34FD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,14 +31,6 @@ Global
 		{E978C67A-29B2-46CE-915E-6049F7A4327A}.Release|x64.Build.0 = Release|x64
 		{E978C67A-29B2-46CE-915E-6049F7A4327A}.Release|x86.ActiveCfg = Release|Win32
 		{E978C67A-29B2-46CE-915E-6049F7A4327A}.Release|x86.Build.0 = Release|Win32
-		{EB329984-269D-4E4F-97C0-4A968ECF34FD}.Debug|x64.ActiveCfg = Debug|x64
-		{EB329984-269D-4E4F-97C0-4A968ECF34FD}.Debug|x64.Build.0 = Debug|x64
-		{EB329984-269D-4E4F-97C0-4A968ECF34FD}.Debug|x86.ActiveCfg = Debug|Win32
-		{EB329984-269D-4E4F-97C0-4A968ECF34FD}.Debug|x86.Build.0 = Debug|Win32
-		{EB329984-269D-4E4F-97C0-4A968ECF34FD}.Release|x64.ActiveCfg = Release|x64
-		{EB329984-269D-4E4F-97C0-4A968ECF34FD}.Release|x64.Build.0 = Release|x64
-		{EB329984-269D-4E4F-97C0-4A968ECF34FD}.Release|x86.ActiveCfg = Release|Win32
-		{EB329984-269D-4E4F-97C0-4A968ECF34FD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
