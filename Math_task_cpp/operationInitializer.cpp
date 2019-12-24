@@ -10,7 +10,6 @@ int Operation_::Execute(int leftNumber, const std::string & opSymbol, int rightN
 const std::unique_ptr<Operation_>& Operation_::InitOperation()
 {
 	static std::unique_ptr<Operation_> instance(new Operation_); 
-
 	return instance;
 }
 
